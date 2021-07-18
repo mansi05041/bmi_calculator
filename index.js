@@ -43,21 +43,27 @@ function get_bmi(){
     var img = document.querySelector(".bmi_image");
     if (bmi<=18.5){
       message.innerHTML = "Underweight";
-      img.src = "images/underweight.png";
-      img.height = "400";
-      img.width = "300";
+      img.src = "images/underweight_.gif";
     }
     else if (bmi>18.5 && bmi<=24.9){
       message.innerHTML = "Healthy";
-      img.src = "images/healthy.png";
+      img.src = "images/normal_.gif";
     }
     else if (bmi>=25 && bmi<=29.9){
-      message.innerHTML = "Obese";
-      img.src = "images/obese.png";
+      message.innerHTML = "Overweight";
+      img.src = "images/overweight_.gif";
+    }
+    else if (bmi>=30 && bmi<=34.9){
+      message.innerHTML = "Obese type I";
+      img.src = "images/obese_type_1.gif";
+    }
+    else if (bmi>=35 && bmi<=39.9){
+      message.innerHTML = "Obese type II";
+      img.src = "images/obese_type_2.gif";
     }
     else{
-      message.innerHTML = "Morbidly Obese";
-      img.src = "images/mor_obesity.png";
+      message.innerHTML = "Obese type III";
+      img.src = "images/obese_type_3.gif";
     }
     // display result section
     document.getElementById("result").classList.remove("visibility");
