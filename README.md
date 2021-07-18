@@ -26,7 +26,7 @@ other options of units also given.
 ### Links
 
 - Solution URL: [https://github.com/mansi05041/bmi_calculator]
-- Live Site URL: []
+- Live Site URL: [https://bmi-calculator-livid.vercel.app/]
 
 ## My process
 
