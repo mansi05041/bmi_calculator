@@ -6,6 +6,7 @@
   --white :#ffffff;
   --main-font :'Merienda';
   --secondary-font :'Poppins';
+  --author-font :'Fuggles', 'cursive';
 }
 
 html, body {
@@ -104,7 +105,6 @@ button:hover{
 /*result section*/
 #result{
   padding: 4% 7%;
-  background-color: var(--pink);
   color: var(--dark-violet);
 }
 
@@ -137,13 +137,14 @@ h2{
 }
 
 .bmi_image{
-  width:50%;
+  height: 34.375rem;
+  width: 45.625rem;
 }
 
 /*footer*/
 footer{
-  color: var(--violet);
-  background: var(--white);
+  color: var(--dark-violet);
+  background: var(--pink);
   padding: 3% 7%;
 }
 
@@ -155,6 +156,12 @@ a{
 
 a:hover{
   color: var(--dark-violet);
+}
+
+.author{
+  font-family: var(--author-font);
+  font-weight: 700;
+  font-size: 3.5rem;
 }
 
 .author:hover{
@@ -213,6 +220,9 @@ a:hover{
   }
 
   .bmi_image{
-    width:75%;
+    width:25rem;
+    height:18.75rem;
+    margin-left:-17%;
   }
+  
 }
