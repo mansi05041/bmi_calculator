@@ -15,14 +15,17 @@ website that calculate BMI (Body Mass Index)
 
 ## Overview
 ```
-BMI = weight / height<sup>2</sup>
+BMI = weight / height<sub>2</sub>
 ```
 where weight in kg and height in m ( metric system )</br>
 other options of units also given.
 
 ### Screenshot
- ![](./)
- 
+
+## Desktop
+ ![](./screenshot/desktop.png)
+## Mobile
+ ![](./screenshot/mobile.png)
 ### Links
 
 - Solution URL: [https://github.com/mansi05041/bmi_calculator]
