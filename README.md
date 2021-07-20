@@ -15,7 +15,7 @@ website that calculate BMI (Body Mass Index)
 
 ## Overview
 ```
-BMI = weight / height<sub>2</sub>
+BMI = weight / height^2
 ```
 where weight in kg and height in m ( metric system )</br>
 other options of units also given.
